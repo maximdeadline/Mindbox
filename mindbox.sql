@@ -18,21 +18,21 @@ FOREIGN KEY (category_id) REFERENCES category(ID)
 );
 
 insert into product values
-('продукт 1'),
-('продукт 2'),
-('продукт 3'),
-('продукт 4'),
-('продукт 5'),
-('продукт 6'),
-('продукт 7')
+('РїСЂРѕРґСѓРєС‚ 1'),
+('РїСЂРѕРґСѓРєС‚ 2'),
+('РїСЂРѕРґСѓРєС‚ 3'),
+('РїСЂРѕРґСѓРєС‚ 4'),
+('РїСЂРѕРґСѓРєС‚ 5'),
+('РїСЂРѕРґСѓРєС‚ 6'),
+('РїСЂРѕРґСѓРєС‚ 7')
 
 insert into category values
-('категория 1'),
-('категория 2'),
-('категория 3'),
-('категория 4'),
-('категория 5'),
-('категория 6')
+('РєР°С‚РµРіРѕСЂРёСЏ 1'),
+('РєР°С‚РµРіРѕСЂРёСЏ 2'),
+('РєР°С‚РµРіРѕСЂРёСЏ 3'),
+('РєР°С‚РµРіРѕСЂРёСЏ 4'),
+('РєР°С‚РµРіРѕСЂРёСЏ 5'),
+('РєР°С‚РµРіРѕСЂРёСЏ 6')
 
 insert into product_category values
 (1,1),
@@ -45,8 +45,8 @@ insert into product_category values
 (4,2),
 (3,5)
 
-select case when P.name is NULL then 'Нет продуктов' else P.name end 'Продукты',
-case when C.name is NULL then 'Нет категорий' else C.name end 'Категория' 
+select case when P.name is NULL then 'РќРµС‚ РїСЂРѕРґСѓРєС‚РѕРІ' else P.name end 'РџСЂРѕРґСѓРєС‚С‹',
+case when C.name is NULL then 'РќРµС‚ РєР°С‚РµРіРѕСЂРёР№' else C.name end 'РљР°С‚РµРіРѕСЂРёСЏ' 
 from product_category as PC 
 right join product as P on PC.product_id = P.ID 
 full join category as C on PC.category_id = C.ID
