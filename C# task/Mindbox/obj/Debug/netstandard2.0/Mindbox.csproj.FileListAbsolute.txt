@@ -1,0 +1,18 @@
+C:\Users\maxim\source\repos\Mindbox\Mindbox\bin\Debug\netstandard2.0\Mindbox.deps.json
+C:\Users\maxim\source\repos\Mindbox\Mindbox\bin\Debug\netstandard2.0\Mindbox.dll
+C:\Users\maxim\source\repos\Mindbox\Mindbox\bin\Debug\netstandard2.0\Mindbox.pdb
+C:\Users\maxim\source\repos\Mindbox\Mindbox\obj\Debug\netstandard2.0\Mindbox.csprojAssemblyReference.cache
+C:\Users\maxim\source\repos\Mindbox\Mindbox\obj\Debug\netstandard2.0\Mindbox.csproj.CoreCompileInputs.cache
+C:\Users\maxim\source\repos\Mindbox\Mindbox\obj\Debug\netstandard2.0\Mindbox.AssemblyInfoInputs.cache
+C:\Users\maxim\source\repos\Mindbox\Mindbox\obj\Debug\netstandard2.0\Mindbox.AssemblyInfo.cs
+C:\Users\maxim\source\repos\Mindbox\Mindbox\obj\Debug\netstandard2.0\Mindbox.dll
+C:\Users\maxim\source\repos\Mindbox\Mindbox\obj\Debug\netstandard2.0\Mindbox.pdb
+E:\старая винда\Мои работы\Mindbox\C# task\Mindbox\bin\Debug\netstandard2.0\Mindbox.deps.json
+E:\старая винда\Мои работы\Mindbox\C# task\Mindbox\bin\Debug\netstandard2.0\Mindbox.dll
+E:\старая винда\Мои работы\Mindbox\C# task\Mindbox\bin\Debug\netstandard2.0\Mindbox.pdb
+E:\старая винда\Мои работы\Mindbox\C# task\Mindbox\obj\Debug\netstandard2.0\Mindbox.csprojAssemblyReference.cache
+E:\старая винда\Мои работы\Mindbox\C# task\Mindbox\obj\Debug\netstandard2.0\Mindbox.csproj.CoreCompileInputs.cache
+E:\старая винда\Мои работы\Mindbox\C# task\Mindbox\obj\Debug\netstandard2.0\Mindbox.AssemblyInfoInputs.cache
+E:\старая винда\Мои работы\Mindbox\C# task\Mindbox\obj\Debug\netstandard2.0\Mindbox.AssemblyInfo.cs
+E:\старая винда\Мои работы\Mindbox\C# task\Mindbox\obj\Debug\netstandard2.0\Mindbox.dll
+E:\старая винда\Мои работы\Mindbox\C# task\Mindbox\obj\Debug\netstandard2.0\Mindbox.pdb

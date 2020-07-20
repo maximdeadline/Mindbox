@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4Asl+LrK2OyORA5PDbvG5bjDV02PKbX2BjH8l9lA6twxglA9fLwklBD+KwZakOcr6/q2+H4kN91WA0aVKe4QdA==",
+  "success": true,
+  "projectFilePath": "E:\\старая винда\\Мои работы\\Mindbox\\C# task\\Mindbox\\Mindbox.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maxim\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\maxim\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
