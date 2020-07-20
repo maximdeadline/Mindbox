@@ -18,21 +18,22 @@ FOREIGN KEY (category_id) REFERENCES category(ID)
 );
 
 insert into product values
-('продукт 1'),
-('продукт 2'),
-('продукт 3'),
-('продукт 4'),
-('продукт 5'),
-('продукт 6'),
-('продукт 7')
+('ГЇГ°Г®Г¤ГіГЄГІ 1'),
+('ГЇГ°Г®Г¤ГіГЄГІ 2'),
+('ГЇГ°Г®Г¤ГіГЄГІ 3'),
+('ГЇГ°Г®Г¤ГіГЄГІ 4'),
+('ГЇГ°Г®Г¤ГіГЄГІ 5'),
+('ГЇГ°Г®Г¤ГіГЄГІ 6'),
+('ГЇГ°Г®Г¤ГіГЄГІ 7')
+
 
 insert into category values
-('категория 1'),
-('категория 2'),
-('категория 3'),
-('категория 4'),
-('категория 5'),
-('категория 6')
+('ГЄГ ГІГҐГЈГ®Г°ГЁГї 1'),
+('ГЄГ ГІГҐГЈГ®Г°ГЁГї 2'),
+('ГЄГ ГІГҐГЈГ®Г°ГЁГї 3'),
+('ГЄГ ГІГҐГЈГ®Г°ГЁГї 4'),
+('ГЄГ ГІГҐГЈГ®Г°ГЁГї 5'),
+('ГЄГ ГІГҐГЈГ®Г°ГЁГї 6')
 
 insert into product_category values
 (1,1),
@@ -45,8 +46,8 @@ insert into product_category values
 (4,2),
 (3,5)
 
-select case when P.name is NULL then 'Нет продуктов' else P.name end 'Продукты',
-case when C.name is NULL then 'Нет категорий' else C.name end 'Категория' 
+select case when P.name is NULL then 'ГЌГҐГІ ГЇГ°Г®Г¤ГіГЄГІГ®Гў' else P.name end 'ГЏГ°Г®Г¤ГіГЄГІГ»',
+case when C.name is NULL then 'ГЌГҐГІ ГЄГ ГІГҐГЈГ®Г°ГЁГ©' else C.name end 'ГЉГ ГІГҐГЈГ®Г°ГЁГї' 
 from product_category as PC 
 right join product as P on PC.product_id = P.ID 
 full join category as C on PC.category_id = C.ID
